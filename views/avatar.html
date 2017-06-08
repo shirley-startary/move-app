@@ -12,41 +12,29 @@
   <body>
 <!-- botones -->
     <section class="container-fluid">
-      <div class="col s6 avatar">
-        <img src="../assets/img/monos-11.png"/>
+      <div id="c-slider"class="carousel container">
+        <div class="carousel ">
+          <div data-slide="0" class="carousel-content active">
+            <img src="../assets/img/monos-13.png" alt="Imagen 1">
+          </div>
+          <div data-slide="1" class="carousel-content">
+            <img src="../assets/img/monos-15.png" alt="Imagen 2">
+          </div>
+          <div data-slide="2" class="carousel-content">
+            <img src="../assets/img/monos-14.png" alt="Imagen 3">
+          </div>
+          <div data-slide="3" class="carousel-content">
+            <img src="../assets/img/monos-16.png" alt="Imagen 4">
+          </div>
+        </div>
       </div>
-
-      <div class="col s6 botones-avatar">
-    <!-- cabello     -->
-        <a class="waves-effect waves-light btn-large cabello-rojo" type="submit" href="../assets/img/monos-11.png">
-          <img src="../assets/img/monos-04.png" alt="cabello rojo">
-        </a>
-        <a class="waves-effect waves-light btn-large cabello-amarillo" type="submit" href="../assets/img/monos-12.png">
-          <img src="../assets/img/monos-03.png" alt="cabello amarillo">
-        </a>
-        <a class="waves-effect waves-light btn-large cabello-cafe" type="submit" href="../assets/img/monos-13.png">
-          <img src="../assets/img/monos-02.png" alt="cabello cafe">
-        </a>
-    <!-- vestidos     -->
-      <a class="waves-effect waves-light btn-large vestido1">
-        <img src="../assets/img/monos-05.png" alt="vestido1">
-      </a>
-      <a class="waves-effect waves-light btn-large vestido2">
-        <img src="../assets/img/monos-06.png" alt="vestido2">
-      </a>
-      <a class="waves-effect waves-light btn-large vestido3">
-        <img src="../assets/img/monos-07.png" alt="vestido3">
-      </a>
-    <!-- zapatos -->
-      <a class="waves-effect waves-light btn-large zapato1">
-        <img src="../assets/img/monos-08.png" alt="zapato1">
-      </a>
-      <a class="waves-effect waves-light btn-large zapato2">
-        <img src="../assets/img/monos-09.png" alt="zapato2">
-      </a>
-      <a class="waves-effect waves-light btn-large zapato3">
-        <img src="../assets/img/monos-10.png" alt="zapato3">
-      </a>
+      <div class="controls container">
+        <div class="botones">
+          <button type="button" data-target="0" class=" col-md-12 control"><img src="../assets/img/monos-02.png"></button>
+          <button type="button" data-target="1" class=" col-md-12 control"><img src="../assets/img/monos-03.png"></button>
+          <button type="button" data-target="2" class=" col-md-12 control"><img src="../assets/img/monos-04.png"></button>
+          <button type="button" data-target="3" class=" col-md-12 control"><img src="../assets/img/monos-05.png"></button>
+        </div>
       </div>
     </section>
     <script src="../js/jquery-3.2.1.min.js"></script>
