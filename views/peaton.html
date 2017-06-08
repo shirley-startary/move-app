@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+      <!-- ESTILOS PROPIOS -->
+      <link type="text/css" rel="stylesheet" href="../css/peaton-estilos.css" />
+      <link type="text/css" rel="stylesheet" href="../css/modalesGanar.css" />
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <meta charset="utf-8">
+    <title> nombre app</title>
+  </head>
+  <body>
+    <section class="fondo" >
+        <section class="row" >
+            <section class="col s12">
+                <div class="background-image" ></div>
+                <div class="personaje" >
+                    <img  class="imagen" src="../assets/img/peaton-1.png" />
+                </div>
+            </section>
+
+            <section class="row">
+                <section class="col s12">
+                    <div class="contenedor-btn">
+                        <button class="btn-home">Menú</button>
+                        <button class="btn-inLine " href="#modalGanaste">Avanza</button>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </section>
+
+    <!--botón que activa el modal de ¡Perdiste!-->
+      <a class="waves-effect waves-light btn" href="#modalPerdiste">No</a>
+    <!--botón que activa el modal de ¡Ganaste!-->
+      <a class="waves-effect waves-light btn" href="#modalGanaste">Sí</  a>
+
+    <!-- Modal perdiste-->
+      <div class="modal" id="modalPerdiste">
+        <div class="modal-content row">
+          <div class="col s12">
+            <iframe src="https://giphy.com/embed/5mALha900mUmY" width="450" height="384" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <div class="col s4">
+              <button class="btn waves-effect waves-light" id="menu" onclick="location.href='modojuego.html'"><i class="material-icons">home</i></button>
+            </div>
+            <div class="col s4">
+              <h4 id="perdiste">¡Perdiste!</h4>
+            </div>
+            <div class="col s4">
+              <button class="btn waves-effect waves-light" id="reintentar" onclick="location.href='modojuego.html'"><i class="material-icons">loop</i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--fin modal perdiste-->
+
+    <!-- Modal ganaste-->
+      <div class="modal" id="modalGanaste">
+        <div class="modal-content row">
+          <div class="col s12">
+            <iframe src="https://giphy.com/embed/72HahsJD4atSE" width="450" height="384" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            <div class="col s4">
+              <button class="btn waves-effect waves-light" id="menu" onclick="location.href='modojuego.html'"><i class="material-icons">home</i></button>
+            </div>
+            <div class="col s4">
+              <h6 id="ganasteMonedas">¡Ganaste 500 monedas!</h6>
+            </div>
+            <div class="col s4">
+              <button class="btn waves-effect waves-light" id="siguiente" onclick="location.href='modojuego.html'"><i class="material-icons">forward</i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--fin modal ganaste-->
+
+        <!--fin modal mensaje-->
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.min.js"></script>
+    <!-- FUNCIONALIDAD -->
+    <script type="text/javascript" src="../js/peaton.js"></script>
+  </body>
+</html>
