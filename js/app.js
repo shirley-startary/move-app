@@ -1,5 +1,5 @@
 var cargarPagina = function(){
-  $("#btnjugar").click(cambiarPagina);
+  $(".btnjugar").click(cambiarPagina);
 }
 
 var cambiarPagina = function(e){
