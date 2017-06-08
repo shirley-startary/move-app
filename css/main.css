@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #EBEBEB;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+section.botonDeJuego{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-wrapper a{
+  padding-left: 2% ;
+  /*padding-right: 2%;*/
+}
+
+nav {
+  background-color: #F45B69;
+}
+.page-footer {
+    background-color: #F45B69;
+}
+@media (max-width:640px){
+  header{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
+}
+
+@media (min-width:641px){
+  section.botonDeJuego{
+    display: none;
+  }
+
+}
+
+.btn{
+  background-color: #F45B69;
+}
+.btn:hover{
+  /*background-color: #59C3C3;*/
+  background-color: #EBEBEB;
+  color:#F45B69;
+}
