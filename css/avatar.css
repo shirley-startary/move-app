@@ -1,0 +1,23 @@
+html{
+  margin: 0;
+  height: 100vh;
+}
+
+.avatar{
+  float: left;
+  width: 50%;
+}
+
+.botones-avatar{
+  float: right;
+  width: 50%;
+}
+
+.btn-large{
+  border-radius: 39px 39px 39px 39px;
+  -moz-border-radius: 39px 39px 39px 39px;
+  -webkit-border-radius: 39px 39px 39px 39px;
+  border: 0px solid #faf5fa;
+  background: #59c3c3;
+  height: 130px;
+}
