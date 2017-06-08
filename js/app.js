@@ -4,6 +4,6 @@ var cargarPagina = function(){
 
 var cambiarPagina = function(e){
   e.preventDefault();
-  location.href = "views/modojuego.html"
+  location.href = "views/avatar.html"
 }
 $(document).ready(cargarPagina);

@@ -1,5 +1,8 @@
 var cargarPagina = function (){
   $('.modal').modal();
+  $("#btnmenu").click(function(){
+    location.href ="../home.html"
+  })
   // $("body").
   setInterval(function(){
     $('body').css('background-image', 'url(../assets/img/streetBackground-green.png)');

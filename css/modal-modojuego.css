@@ -1,0 +1,41 @@
+.modal-content{
+    background-color: #ebebeb;
+}
+.contenedorCentral{
+    background-color: #ebebeb;   
+}
+.letraBlanca{
+    color:white;
+}
+.letraMorada{
+    color:#52489c;
+    margin-left: 185px;
+    margin-bottom: 50px;
+}
+.letraBlanca2{
+    color:white;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+#modal1 .modal-footer{
+    background-color:#ebebeb; 
+}
+.letraBtnSalir{
+    background-color: #187cbe;
+    
+    
+}
+.fuente{
+    font-family: 'Righteous', cursive;
+}
+.contenedorCentral{
+    display: flex;
+}
+.icons{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+.esp{
+    margin-left: 278px;
+}

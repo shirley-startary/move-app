@@ -1,0 +1,23 @@
+.cont-modoJuego{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 100px;
+}
+
+.cont-journey a{
+    width: 300px;
+    height: 100%;
+    background-color: #187CBE;
+    text-align: center;
+    color: #fff;
+}
+
+.cont-select a{
+    width: 300px%;
+    height: 100%;
+    background-color: #187CBE;
+    margin-left: 30px;
+    text-align: center;
+    color: #fff;
+}
